@@ -18771,7 +18771,8 @@ Er:function Er(a){this.a=a},
 WA:function WA(a){this.a=a},
 Wz:function Wz(a,b){this.a=a
 this.b=b},
-mn:function mn(a){this.a=a},
+mn:function mn(a,b){this.a=a
+this.c=b},
 oh:function oh(a){this.a=a},
 QV:function QV(a){this.a=a},
 QW:function QW(){},
@@ -62873,7 +62874,7 @@ $1(a){return B.GJ},
 $S:372}
 A.p5.prototype={
 L(a,b){var s=null
-return A.Ha(A.ags(s,s,!0,B.W.h(0,900),s,s,1,s,s,s,!1,s,s,s,s,s,!0,s,s,s,s,B.KF,s,s,s,1,s),A.fn(s,A.oy(B.BF,B.b0,B.cd,B.ak),B.u,s,s,s,s,s))}}
+return A.Ha(A.ags(s,s,!0,B.W.h(0,900),s,s,1,s,s,s,!1,s,s,s,s,s,!0,s,s,s,s,B.KE,s,s,s,1,s),A.fn(s,A.oy(B.BF,B.b0,B.cd,B.ak),B.u,s,s,s,s,s))}}
 A.pf.prototype={
 L(a,b){var s=null,r=A.xN(B.L),q=t.p
 return A.EU(!1,A.Ha(s,A.Sr(A.a([A.a2q(A.a([A.p7(s,B.dA,s,new A.WB(b),"Return Home")],q),B.W.h(0,600),60,B.zA,new A.WC(),!0,!0),new A.Er(s)],q))),s,B.e6,B.dl,r,"Usher Inventory")}}
@@ -62895,7 +62896,7 @@ return A.a2u(A.a2s(new A.WA(A.aD(b).p4),4))}}
 A.WA.prototype={
 $2(a,b){var s=null,r=B.E2.h(0,b),q=r.a,p=this.a,o=t.p,n=A.f4(A.iy(B.aK,A.a([new A.e9(B.S,s,s,A.dV(B.f.i(q+1),s,s,s,p.r,s,s),s)],o),B.ei),60,60)
 p=p.f
-return A.RA(A.pR(A.a([n,A.DD(new A.dQ(B.dx,A.oy(A.a([A.dV(B.BI[q>=4?q-4:q],s,s,s,p,s,s),A.f4(s,10,s),A.dV("grams",s,s,s,s,s,s),B.uD,A.m3(B.el,new A.Wz(r,a))],o),B.c0,B.cd,B.ak),s),1),new A.dQ(new A.aZ(10,10,10,10),A.dV("0",s,s,s,p,s,s),s)],o),B.b0,B.ak))},
+return A.RA(A.pR(A.a([n,A.DD(new A.dQ(B.dx,A.oy(A.a([A.dV(B.BI[q>=4?q-4:q],s,s,s,p,s,s),A.f4(s,10,s),A.dV(r.c,s,s,s,s,s,s),B.uD,A.m3(B.el,new A.Wz(r,a))],o),B.c0,B.cd,B.ak),s),1),new A.dQ(new A.aZ(10,10,10,10),A.dV("0",s,s,s,p,s,s),s)],o),B.b0,B.ak))},
 $S:42}
 A.Wz.prototype={
 $0(){var s=0,r=A.a1(t.H),q=this,p,o
@@ -62914,7 +62915,7 @@ $S:7}
 A.mn.prototype={}
 A.oh.prototype={
 L(a,b){var s=null,r=A.xN(B.L),q=t.p
-return A.EU(!1,A.Ha(s,A.Sr(A.a([A.a2q(A.a([A.p7(s,B.dA,s,new A.QV(b),"Return Home")],q),B.W.h(0,600),60,B.zC,new A.QW(),!0,!0),new A.BO(s)],q))),s,B.e6,B.dl,r,"Attendance")}}
+return A.EU(!1,A.Ha(s,A.Sr(A.a([A.a2q(A.a([A.p7(s,B.dA,s,new A.QV(b),"Return Home")],q),B.W.h(0,600),60,B.zD,new A.QW(),!0,!0),new A.BO(s)],q))),s,B.e6,B.dl,r,"Attendance")}}
 A.QV.prototype={
 $0(){var s=this.a
 A.ed(s).eX(0,null)
@@ -62952,7 +62953,7 @@ $S:7}
 A.lM.prototype={}
 A.pF.prototype={
 L(a,b){var s=null,r=A.xN(B.L),q=t.p
-return A.EU(!1,A.Ha(s,A.Sr(A.a([A.a2q(A.a([A.p7(s,B.dA,s,new A.Zu(b),"Return Home")],q),B.W.h(0,600),60,B.zD,new A.Zv(),!0,!0),new A.Gb(s)],q))),s,B.e6,B.dl,r,"Praises")}}
+return A.EU(!1,A.Ha(s,A.Sr(A.a([A.a2q(A.a([A.p7(s,B.dA,s,new A.Zu(b),"Return Home")],q),B.W.h(0,600),60,B.zC,new A.Zv(),!0,!0),new A.Gb(s)],q))),s,B.e6,B.dl,r,"Praises")}}
 A.Zu.prototype={
 $0(){var s=this.a
 A.ed(s).eX(0,null)
@@ -63042,7 +63043,7 @@ $1(a){$.aeH=a},
 $S:33}
 A.F8.prototype={
 L(a,b){var s=null
-return A.fn(s,new A.e9(B.kY,s,s,A.pR(A.a([A.m3(B.uv,new A.Y8(b)),A.m3(B.uu,new A.Y9(b)),A.m3(B.KE,new A.Ya(b)),A.m3(B.KI,new A.Yb(b))],t.p),B.b0,B.ak),s),B.u,s,s,s,s,s)}}
+return A.fn(s,new A.e9(B.kY,s,s,A.pR(A.a([A.m3(B.uv,new A.Y8(b)),A.m3(B.uu,new A.Y9(b)),A.m3(B.KD,new A.Ya(b)),A.m3(B.KI,new A.Yb(b))],t.p),B.b0,B.ak),s),B.u,s,s,s,s,s)}}
 A.Y8.prototype={
 $0(){var s=this.a
 A.ed(s).eX(0,null)
@@ -67062,12 +67063,12 @@ B.u8=new A.ni(2,"fadeTitle")
 B.GG=new A.ni(1,"blurBackground")
 B.Bj=A.a(s([B.GF,B.u8,B.GG]),A.S("t<ni>"))
 B.zA=new A.ks(B.uv,null)
-B.KH=new A.dC("Suggestions",null,null,null,null,null,null,null,null)
-B.zB=new A.ks(B.KH,null)
+B.KG=new A.dC("Suggestions",null,null,null,null,null,null,null,null)
+B.zB=new A.ks(B.KG,null)
+B.KH=new A.dC("Praises",null,null,null,null,null,null,null,null)
+B.zC=new A.ks(B.KH,null)
 B.uu=new A.dC("Attendance",null,null,null,null,null,null,null,null)
-B.zC=new A.ks(B.uu,null)
-B.KC=new A.dC("Praise Reports",null,null,null,null,null,null,null,null)
-B.zD=new A.ks(B.KC,null)
+B.zD=new A.ks(B.uu,null)
 B.zE=new A.oW(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.lO=new A.oX(0,"Start")
 B.f6=new A.oX(1,"Update")
@@ -67290,11 +67291,11 @@ B.KB=new A.dC("v0.1d",null,null,null,null,null,null,null,null)
 B.uW=new A.e9(B.uZ,null,null,B.KB,null)
 B.u6=new A.I_(null)
 B.Kk=new A.r(!0,null,null,null,null,null,36,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.KG=new A.dC("USHERS",null,B.Kk,null,null,null,null,null,null)
-B.wx=new A.or(B.S,null,null,B.KG,null)
+B.KF=new A.dC("USHERS",null,B.Kk,null,null,null,null,null,null)
+B.wx=new A.or(B.S,null,null,B.KF,null)
 B.Kl=new A.r(!0,null,null,null,null,null,25,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.KD=new A.dC("Thank you for what you do!",null,B.Kl,null,null,null,null,null,null)
-B.ww=new A.or(B.S,null,null,B.KD,null)
+B.KC=new A.dC("Thank you for what you do!",null,B.Kl,null,null,null,null,null,null)
+B.ww=new A.or(B.S,null,null,B.KC,null)
 B.KA=new A.dC("Navigate with the tabs above:",null,null,null,null,null,null,null,null)
 B.BF=A.a(s([B.En,B.uW,B.u6,B.wx,B.ww,B.KA,B.u6]),t.p)
 B.BG=A.a(s(["https://www.googleapis.com/auth/spreadsheets","https://www.googleapis.com/auth/drive"]),t.s)
@@ -68090,10 +68091,10 @@ B.yw=new A.I(4284809178)
 B.ym=new A.I(4280150454)
 B.yh=new A.I(4278239141)
 B.e7=new A.bo([100,B.yz,200,B.yw,400,B.ym,700,B.yh],t.pl)
-B.zZ=new A.mn(0)
-B.A_=new A.mn(1)
-B.A0=new A.mn(2)
-B.A1=new A.mn(3)
+B.zZ=new A.mn(0,"each")
+B.A_=new A.mn(1,"grams")
+B.A0=new A.mn(2,"grams")
+B.A1=new A.mn(3,"grams")
 B.E2=new A.bo([0,B.zZ,1,B.A_,2,B.A0,3,B.A1],A.S("bo<m,mn>"))
 B.mo=new A.d(32)
 B.Cs=new A.d(33)
@@ -68758,8 +68759,8 @@ B.JH=new A.r(!0,B.l,null,".SF UI Text",null,null,null,null,null,null,null,null,n
 B.Ia=new A.r(!0,B.l,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,B.i,null,null,null,"whiteCupertino labelSmall",null,null,null)
 B.Kz=new A.dE(B.HB,B.Jg,B.Jt,B.K7,B.IQ,B.HY,B.Jn,B.IT,B.J0,B.JQ,B.I7,B.Kc,B.IL,B.JH,B.Ia)
 B.ut=new A.xM(1,"longestLine")
-B.KE=new A.dC("Praise",null,null,null,null,null,null,null,null)
-B.KF=new A.dC("Freedom Church | CO",null,null,null,null,null,null,null,null)
+B.KD=new A.dC("Praise",null,null,null,null,null,null,null,null)
+B.KE=new A.dC("Freedom Church | CO",null,null,null,null,null,null,null,null)
 B.KI=new A.dC("Suggest",null,null,null,null,null,null,null,null)
 B.el=new A.dC("Submit",null,null,null,null,null,null,null,null)
 B.NA=new A.IE(0,"system")
